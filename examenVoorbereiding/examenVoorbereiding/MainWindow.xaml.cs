@@ -30,9 +30,13 @@ namespace examenVoorbereiding
             MessageBox.Show("hello");
         }
 
-        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void GridSplitter_DragDelta(object sender, System.Windows.Controls.Primitives.DragDeltaEventArgs e)
+        {
+
+        }
+
+        private void GridSplitter_DragDelta_1(object sender, System.Windows.Controls.Primitives.DragDeltaEventArgs e)
         {
 
         }
     }
-}
